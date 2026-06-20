@@ -1,0 +1,4 @@
+Scenario,Avg Completed Orders,Throughput per Hour,Avg Lead Time (min),Median Lead Time (min),P95 Lead Time (min),Backlog,Receiving Util (%),Putaway Util (%),Picking Util (%),Packing Util (%),Shipping Util (%),Avg Receiving Queue (min),Avg Putaway Queue (min),Avg Picking Queue (min),Avg Packing Queue (min),Avg Shipping Queue (min),Avg Inventory Wait Events,Identified Bottleneck
+Scenario A — Baseline,73.33,9.17,32.54,31.47,51.65,0.93,90.33,90.46,80.41,92.25,92.98,1.35,0.04,7.96,6.35,0.12,0.00,shipping
+Scenario B — Additional packing capacity,71.13,8.89,25.15,23.72,38.63,0.00,87.22,87.60,78.38,62.28,91.40,1.39,0.02,5.67,0.00,1.11,0.00,shipping
+Scenario C — Faster picking equipment,73.30,9.16,30.50,28.96,49.60,0.43,92.31,93.87,71.33,92.08,92.83,1.18,0.02,2.62,11.25,0.11,0.00,putaway
